@@ -13,9 +13,9 @@
 
 .animated {
   -webkit-animation-duration: 1s;
-	   -moz-animation-duration: 2s;
-	     -o-animation-duration: 2s;
-	        animation-duration: 2s;
+	   -moz-animation-duration: 3s;
+	     -o-animation-duration: 3s;
+	        animation-duration: 3s;
 	-webkit-animation-fill-mode: both;
 	   -moz-animation-fill-mode: both;
 	     -o-animation-fill-mode: both;
@@ -23,10 +23,10 @@
 }
 
 .animated.hinges {
-	-webkit-animation-duration: 2s;
-	   -moz-animation-duration: 2s;
-	     -o-animation-duration: 2s;
-	        animation-duration: 2s;
+	-webkit-animation-duration: 3s;
+	   -moz-animation-duration: 3s;
+	     -o-animation-duration: 3s;
+	        animation-duration: 3s;
 }
 
 .animated.slow {
