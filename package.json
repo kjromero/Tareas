@@ -1,0 +1,28 @@
+{
+  "name": "integracion-continua",
+  "version": "1.0.0",
+  "description": "Aplicacion de productividad para gestionar listas de tareas, se puede crear, borrar, editar, y eliminar las tareas en las listas",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "webpack": "webpack -w"
+  },
+  "keywords": [
+    "tasks",
+    "todo-list"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.3",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.1"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.3.1",
+    "jquery": "^3.2.1",
+    "nodemon": "^1.14.9",
+    "webpack": "^3.10.0"
+  }
+}
